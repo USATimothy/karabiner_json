@@ -1,0 +1,25 @@
+
+See keylayout_json_instructions.csv for an example csv file. To build your own, you must use the same header row.
+
+The <from> column is the key pressed. The <to> column is the intended output. The next columns are for modifier keys. You can put o,m,t, or mt in any of the cells, or leave the cell blank.
+
+o (optional) - the remapping works with and without the modifier. For example, if you remap h to e with an o in the shift column:
+	pressing h results in e
+	pressing shift+h results in E (because shift+p is E).
+
+m (mandatory) - the remapping works only with this modifier. For example, if you remap [ to ( with an m in the shift column:
+	pressing [ results in [
+	pressing shift+[ results in (
+
+t (to) - the remapping includes the modifer in the output. For example, if you remap j to left_arrow with a t in the fn column:
+	pressing j results in fn+left_arrow (or home for a mac)
+
+You can combine m and t in the same columns. For example, if you remap hyphen to slash with mt in the shift column:
+	pressing the hyphen key results in a hyphen.
+	pressing shift+hyphen results in shift+slash (a question mark).
+
+If you leave a modifier column blank, using that modifier results in the original key, regardless of how a key is remapped. This is useful if you map a keyboard away from QWERTY but want to use the usual cut/copy/paste commands with the xcv keys. For example, if you remap c to q, with the command column blank:
+	pressing c results in q
+	pressing command+c results in command+c (copy, in many programs)
+
+After saving the .csv and running csv_to_json.py, open karabiner and create a new profile. Under the complex modifications tab, click Add rule. The rules created in your csv should show up in the list, along with an Enable All option.

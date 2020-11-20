@@ -1,0 +1,101 @@
+from	to	caps_lock	command	control	fn	option	shift
+j	h	o					o
+y	f	o					o
+grave_accent_and_tilde	hyphen	o					t
+grave_accent_and_tilde	grave_accent_and_tilde	o					m
+6	backslash	o					mt
+8	comma	o					mt
+9	period	o					mt
+hyphen	slash	o					
+hyphen	backslash	o					m
+equal_sign	8	o					t
+equal_sign	6	o					mt
+q	quote	o					
+q	open_bracket	o					mt
+w	comma	o					
+w	1	o					mt
+e	period	o					
+e	slash	o					mt
+r	p	o					o
+t	y	o					o
+u	g	o					o
+i	r	o					o
+o	c	o					o
+p	l	o					o
+open_bracket	quote	o					t
+open_bracket	close_bracket	o					mt
+close_bracket	equal_sign	o					t
+close_bracket	grave_accent_and_tilde	o					mt
+backslash	hyphen	o					
+backslash	equal_sign	o					m
+caps_lock	9	o					t
+caps_lock	open_bracket	o					m
+caps_lock	caps_lock	o	m				
+s	o	o					o
+d	e	o					o
+f	u	o					o
+g	i	o					o
+h	d	o					o
+k	t	o					o
+l	n	o					o
+semicolon	s	o					o
+quote	0	o					t
+quote	close_bracket	o					m
+c	j	o					o
+v	k	o					o
+b	semicolon	o					t
+b	semicolon	o					m
+n	b	o					o
+comma	w	o					o
+comma	w	m					m
+period	v	o					o
+period	v	m					m
+slash	q	o					o
+u	left_arrow	o			mt		
+i	up_arrow	o			m		
+o	up_arrow	o			mt		
+j	left_arrow	o			m		
+l	right_arrow	o			m		
+m	right_arrow	o			mt		
+comma	down_arrow	o			m		
+period	down_arrow	o			mt		
+delete_or_backspace	delete_or_backspace	o	o	o	t	o	o
+spacebar	delete_or_backspace	o		o			m
+spacebar	delete_or_backspace	o	m			t	
+spacebar	delete_or_backspace	o	t		m		
+f1	z	o	t				
+f2	x	o	t				
+f3	c	o	t				
+f4	v	o	t				
+f1	display_brightness_decrement	o					m
+f2	display_brightness_increment	o					m
+f3	mission_control	o					m
+f4	launchpad	o					m
+f1	f1	o			m		
+f2	f2	o			m		
+f3	f3	o			m		
+f4	f4	o			m		
+f5	f5	o					
+f5	f5	o			m		
+f5	illumination_decrement	o					m
+f6	f6	o					
+f6	f6	o			m		
+f6	illumination_increment	o					m
+f7	f7	o					
+f7	f7	o			m		
+f7	rewind	o					m
+f8	s	o	t				t
+f8	f8	o			m		
+f8	play_or_pause	o					m
+f9	s	o	t				
+f9	f9	o			m		
+f9	fastforward	o					m
+f10	f10	o					
+f10	f10	o			m		
+f10	mute	o					m
+f11	f11	o					
+f11	f11	o			m		
+f11	volume_decrement	o					m
+f12	q	o	t				
+f12	f12	o			m		
+f12	volume_increment	o					m
